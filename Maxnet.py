@@ -33,9 +33,8 @@ def main():
 
     while checkWinner(Input) == False:
         iteration += 1
-        Output = Maxnet(Input,e)
-        print(Output)
-        Input = Output
+        Input = Maxnet(Input,e)
+        print(Input)
 
     #Find winner node
     for i in range(len(Input)):
